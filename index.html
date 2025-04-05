@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional Portfolio showcasing skills and projects for Arwa David" />
+    <meta name="keywords" content="software developer, web developer, portfolio, Arwa David, Kenya" />
+    <meta name="author" content="Arwa David" />
+    <title>Francis Kamau Portfolio</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Skip to main content link for screen readers -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header role="banner">
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="logo" role="heading" aria-level="1">Francis Kamau</div>
+        <ul class="nav-links" role="list">
+          <li><a href="#home" class="active" aria-current="page">Home</a></li>
+          <li><a href="#about">About</a></li>
+          
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </button>
+          <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <!-- Hero Section -->
+      <section id="home" class="hero" aria-label="Introduction">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hello, I'm <span class="highlight">Francis Kamau</span></h1>
+            <h2>Software Engineer</h2>
+            <p>I am a Passionate Software Engineer that provides high tech and modern solutions.</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-container">
+              <img src="profile.jpg" alt="Profile photo of Francis Kamau" />
+            </div>
+          </div>
+        </div>
+        <div class="scroll-down">
+          <a href="#about" aria-label="Scroll to about section"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about section" aria-labelledby="about-title">
+        <div class="section-container">
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <video autoplay muted loop playsinline>
+                <source src="https://videos.pexels.com/video-files/2516160/2516160-hd_1920_1080_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="about-text">
+              <p>I'm a digital catalyst. I translate business needs into sleek code, automate workflows like a pro, and build systems that actually work. I'm here to amplify your impact, one line of code and one perfectly managed task at a time.</p>
+              <p>I believe in continuous learning and staying updated with emerging technologies. My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations.</p>
+              
+              <a href="Francis's Curriculum Vitae.docx" target="_blank" class="btn btn-primary download-cv" aria-label="Download my CV">Download My CV <i class="fas fa-download" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section" aria-labelledby="skills-title">
+        <div class="section-container">
+          <h2 id="skills-title" class="section-title">My Skills</h2>
+          <div class="skills-content">
+            <div class="skills-description">
+              <p>I am skilled in a range of Programming Languages, from front-end to back-end. Here are my key technical skills:</p>
+            </div>
+            
+            <div class="skills-categories" role="list">
+              <div class="skill-category" role="listitem">
+                <h3>Front-End</h3>
+                <div class="skill-list" role="list">
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                    <i class="fab fa-html5" style="color: #E34F26;"></i>
+                      <span>HTML</span>
+                      <span>70%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                       <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                      <span>JavaScript</span>
+                      <span>20%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                     <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                      <span>CSS</span>
+                      <span>90%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-category" role="listitem">
+                <h3>Back-End</h3>
+                <div class="skill-list" role="list">
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                      <i class="fab fa-node-js" style="color: #339933;"></i>
+                      <span>Node.js</span>
+                      <span>30%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                    <i class="fab fa-python" style="color: #3776AB;"></i>
+                      <span>Python</span>
+                      <span>50%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                     <i class="fas fa-database" style="color: #00758F;"></i>
+                      <span>SQL</span>
+                      <span>65%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skill-category" role="listitem">
+                <h3>Other Skills</h3>
+                <div class="skill-list" role="list">
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                     <i class="fas fa-chart-line" style="color: #4CAF50;"></i>
+                      <span>Data Analysis</span>
+                      <span>10%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 10%"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                      <i class="fab fa-github" style="color: #181717;"></i>
+                      <span>Git/GitHub</span>
+                      <span>90%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" role="listitem">
+                    <div class="skill-info">
+                       <i class="fas fa-robot" style="color: #6E59A5;"></i>
+                      <span>Generative AI Tools</span>
+                      <span>5%</span>
+                    </div>
+                    <div class="skill-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                      <div class="skill-progress" style="width: 5%"></div>
+                    </div>
+                  </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education section">
+        <div class="section-container">
+          <h2 class="section-title">Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <span>Feb 2025 - Present</span>
+              </div>
+              <div class="timeline-content">
+                <h3>Software Development</h3>
+                <h4>Power Learn Project Africa</h4>
+                <p>I got lucky and got a sholarship offered by the Power Learn Project. It is a !6 week Software Engineering Programme that Equips one with web-development skills , Back-end ,Startup essentials and Python skills </p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <span>Sep 2023 - Present</span>
+              </div>
+              <div class="timeline-content">
+                <h3>Chuka University</h3>
+                <h4>Bachelor's Degree in Applied Computer Science</h4>
+                <p> Am currently in Chuka and in my two years I have been here, I have gained Logical thinking skills. This has been due to the Maths and Physics Units I have Tackled. And even Though I have been Taught Java and C languages my passion towards tech isn't aligned to those Stacks</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <span>Feb 2023 - May 2023</span>
+              </div>
+              <div class="timeline-content">
+                <h3>Kiambu Training Institute</h3>
+                <h4>Computer Packages</h4>
+                <p>This short course helped to realize I was destinrd for tech. This was where I learned How to use a computer. In this short course I learned how to use Ms word, Ms acces, Ms excel, Ms powerpoint, How to maintain computers and how to repair Computers. This was a free course.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <span>2019 - 2022</span>
+              </div>
+              <div class="timeline-content">
+                <h3>Mururia Boys High School</h3>
+                <h4>High school</h4>
+                <p>I studied here for 4 years and managed to attain a mean grade of B plain.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects section" aria-labelledby="projects-title">
+        <div class="section-container">
+          <h2 id="projects-title" class="section-title">My Projects</h2>
+          <div class="project-filters" role="tablist" aria-label="Project categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="all-projects">All</button>
+            <button class="filter-btn" data-filter="web" role="tab" aria-selected="false" aria-controls="web-projects">Web</button>
+            <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false" aria-controls="mobile-projects">Mobile</button>
+            <button class="filter-btn" data-filter="data" role="tab" aria-selected="false" aria-controls="data-projects">Back-end</button>
+            <button class="filter-btn" data-filter="python" role="tab" aria-selected="false" aria-controls="python-projects">Python</button>
+          </div>
+          
+          <div class="projects-grid" role="tabpanel" id="all-projects" aria-labelledby="all">
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="My Portfolio Website">
+              </div>
+              <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>A portfolio website that showcases my skills, interests and projects.</p>
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/introvertf/nYCTO-S-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                  <a href="https://github.com/introvertf/nYCTO-S-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="mobile">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Calculator App">
+              </div>
+              <div class="project-info">
+                <h3>Calculator App</h3>
+                <p>A simple calculator app that allows users to perform basic arithmetic operations.</p>
+                <div class="project-tech">
+                  <span>Python</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/introvertf/Python-Calculator" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="data">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/289738/pexels-photo-289738.jpeg?auto=compress&cs=tinysrgb&w=600" alt="back-end">
+              </div>
+              <div class="project-info">
+                <h3>School management System</h3>
+                <p>This was actually a class Assignment</p>
+                <div class="project-tech">
+                  <span>Java</span>
+                  <span>My Sql</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/introvertf/School-management-systems" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="python">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/965875/pexels-photo-965875.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dice Game"">
+              </div>
+              <div class="project-info">
+                <h3>Dice Game</h3>
+                <p>This is a two player Game where each play gets to roll the dice and adds up the points automaticaly. The first player to reach 100 Points wins.</p>
+                <div class="project-tech">
+                  <span>Html</span>
+                  <span>Css</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/introvertf/Dice-game" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section id="interests" class="interests section">
+        <div class="section-container">
+          <h2 class="section-title">My Interests</h2>
+          <div class="interests-content">
+            <div class="interests-grid">
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h3>Programming</h3>
+                <p>Passionate about coding and solving complex problems through creative solutions.</p>
+              </div>
+    <!--Interests Section-->
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI & Machine Learning</h3>
+                <p>Fascinated by artificial intelligence and its applications in solving real-world problems.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-book"></i>
+                </div>
+                <h3>Tech Innovations</h3>
+                <p>I stay updated on Tech trends and news by reading tech blogs, websites and other related media.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-music"></i>
+                </div>
+                <h3>Taekwondo</h3>
+                <p>I've loved martial arts since I was a kid. My Dad trained me some little boxing skills and I devloped the curiosity to attain the martial art skills and I started with taekwondo which till today I play. I am a 5thKyup Yellow belt holder currently.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-plane"></i>
+                </div>
+                <h3>Hiking</h3>
+                <p>I enjoy exploring Mountains and hills and just to stay away from my laptop(am addicted to it😁) and its also Theraputic.</p>
+              </div>
+
+              <div class="interest-card">
+                <div class="interest-icon">
+                  <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Gaming</h3>
+                <p>Enthusiastic about gaming.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section" aria-labelledby="contact-title">
+        <div class="section-container">
+          <h2 id="contact-title" class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>I'm Here To Help</h3>
+              <p>Whether you have a project in mind, a question, or just want to say hello, feel free to reach out to me. I'm always open to discussing new projects, opportunities, and partnerships.</p>
+              
+              <div class="contact-details" role="list">
+                <div class="contact-item" role="listitem">
+                  <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                  <div>
+                    <h4>Location</h4>
+                    <p>Nairobi, Kenya</p>
+                  </div>
+                </div>
+                
+                <div class="contact-item" role="listitem">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                  <div>
+                    <h4>Email</h4>
+                    <p>njungunafrancis525@gmail.com</p>
+                  </div>
+                </div>
+                
+                <div class="contact-item" role="listitem">
+                  <i class="fas fa-phone" aria-hidden="true"></i>
+                  <div>
+                    <h4>Phone</h4>
+                    <p>+254 705764209</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-social" role="list">
+                <a href="https://github.com/introvertf" aria-label="GitHub profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="mailto:njungunafrancis525@gmail.com" aria-label="Send email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://x.com/Francis27831134" aria-label="Twitter profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://wa.me/254705764209" aria-label="WhatsApp contact"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                 <a href="https://www.instagram.com/n.v.m_francis?igsh=MW9ydXY2aHJ2cjV4" aria-label="Instagram profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            
+            <div class="contact-form">
+              <form id="contactForm" aria-label="Contact form">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" placeholder="Enter subject" required aria-required="true">
+                </div>
+                
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Enter your message" required aria-required="true"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section-->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Francis Kamau</h3>
+          <p>Software Developer</p>
+        </div>
+        <div class="footer-links" role="list">
+          <a href="#home" role="listitem">Home</a>
+          <a href="#about" role="listitem">About</a>
+          <a href="#skills" role="listitem">Skills</a>
+          <a href="#education" role="listitem">Education</a>
+          <a href="#projects" role="listitem">Projects</a>
+          <a href="#contact" role="listitem">Contact</a>
+        </div>
+        <div class="footer-social" role="list">
+          <a href="https://github.com/introvertf" aria-label="GitHub profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="mailto:njungunafrancis525@gmail.com" aria-label="Send email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://x.com/Francis27831134" aria-label="Twitter profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://wa.me/25470574209" aria-label="WhatsApp contact"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/n.v.m_francis?igsh=MW9ydXY2aHJ2cjV4" aria-label="Instagram profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 nycto. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+    <script>
+      // Dark Mode Toggle
+      const themeToggle = document.getElementById('theme-toggle');
+      const body = document.body;
+      
+      // Check for saved theme preference
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        body.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+      }
+      
+      themeToggle.addEventListener('click', () => {
+        const currentTheme = body.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+        
+        // Update aria-pressed state
+        themeToggle.setAttribute('aria-pressed', newTheme === 'dark');
+      });
+      
+      function updateThemeIcon(theme) {
+        const icon = themeToggle.querySelector('i');
+        icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+      }
+      
+      // Mobile Menu Toggle
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
+      
+      hamburger.addEventListener('click', () => {
+        const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !isExpanded);
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+        body.classList.toggle('menu-open');
+      });
+      
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          hamburger.classList.remove('active');
+          body.classList.remove('menu-open');
+        });
+      });
+      
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+          navLinks.classList.remove('active');
+          hamburger.classList.remove('active');
+          body.classList.remove('menu-open');
+        }
+      });
+      
+      // Smooth Scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+      
+      // Back to Top Button
+      const backToTop = document.querySelector('.back-to-top');
+      
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTop.classList.add('visible');
+        } else {
+          backToTop.classList.remove('visible');
+        }
+      });
+      
+      // Project Filtering
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          filterButtons.forEach(btn => {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-selected', 'false');
+          });
+          button.classList.add('active');
+          button.setAttribute('aria-selected', 'true');
+          
+          const filter = button.getAttribute('data-filter');
+          
+          projectCards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+              card.style.display = 'block';
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+              }, 100);
+            } else {
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(20px)';
+              setTimeout(() => {
+                card.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
