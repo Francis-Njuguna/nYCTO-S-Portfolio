@@ -26,7 +26,6 @@ This portfolio website showcases my skills, background, and achievements in the 
 ## Contact
 
 * Email: njungunafrancis@gmail.com
-* LinkedIn: https://linkedin.com/in/davidarwa
 * GitHub: https://github.com/intovertf/introvertf
 
 ## Acknowledgments
